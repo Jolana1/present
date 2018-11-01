@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Page Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+<style>
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+</style>
+</head>
+
+<body>
+
+    <header>
+        <div class="row">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#section1">Sekcia 1</a></li>
+                    <li><a href="#section2">Sekcia 2</a></li>
+                    <li><a href="#section3">Sekcia 3</a></li>
+                    <li><a href="#section4">Sekcia 4</a> </li>
+                    <li><a>kontakt</a>
+                        <ul>
+                            <li><a href="#contact-form">Form</a></li>
+                            <li><a href="#map">Mapa</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <section id="home">
+            <div class="container">
+                <div class="row">
+                    <h1>Ľuboš Kadaši</h1>
+                    <a class="btn" href="#contact-form">Napíšte mi</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="section1" class="triangle">
+            <div class="container">
+                <div class="row">
+                    <h2><i class="material-icons">favorite</i> Sekcia 1</h2>
+                    <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. <img src="img/whatthe____.jpg" style="width: 100px; float:left; padding: .5em;" alt="">It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                    </p>
+                    <p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Why do we use it? It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point by H. Rackham.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="section2" class="white-section">
+            <div class="container">
+                <div class="row">
+                    <h2>Sekcia 2</h2>
+                </div>
+            </div>
+        </section>
+
+        <section id="section3" class="triangle">
+            <div class="container">
+                <div class="row">
+                    <h2>Sekcia 3</h2>
+                </div>
+            </div>
+        </section>
+
+        <section id="section4">
+            <div class="container">
+                <div class="row">
+                    <h2>Sekcia 4</h2>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="contact-form" class="triangle">
+            <div class="container">
+                <div class="row">
+                    <form method="get" class="container">
+                        <fieldset>
+                            <legend>Meno</legend>
+
+                            <label for="fname">first name:</label>
+                            <input type="text" name="fname" maxlength="5" placeholder="napis meno" value="" id="fname"><br>
+
+                            <label>last name:</label>
+                            <input type="text" required="required" value="Mrkvicka"><br> password:
+                            <input type="password" maxlength="5" disabled="disabled"><br> color:
+                            <input type="color" name="color"><br> date:
+                            <input type="date" name="date"><br>
+
+
+                            <input type="checkbox" name="suhlas" id="suhlas" checked="checked">
+                            <label for="suhlas">: Suhlasim</label><br>
+
+                            <label>
+                        modra:
+                        <input type="radio" name="matrix" value="m" checked="checked">
+                    </label>
+
+                            <label>
+                        cervena:
+                        <input type="radio" name="matrix" value="c">
+                    </label>
+                            <br>
+
+                            <select name="moznost">
+                        <option value="a">jeden</option>
+                        <option value="b" selected="selected">2</option>
+                        <option value="c">3</option>
+                        <option value="d">4</option>
+                    </select><br>
+
+                            <textarea readonly>
+erwerwe
+                    </textarea>
+                            <br>
+                            <input type="file" multiple>
+
+
+                            <br><br>
+                            <!-- mail:
+                    <input type="email" required="required"><br>
+
+                    vek:
+                    <input type="number" required="required"><br>-->
+
+                            <input type="submit">
+                            <input type="reset">
+                            <input type="button" value="niečo">
+                            <button><img src="img/whatthe____.jpg" width="50"></button>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d10652.643400755581!2d17.104090199999998!3d48.126421349999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ssk!2ssk!4v1522337911366" width="100%" height="320" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </section>
+
+    </main>
+
+    <footer>footer
+        <a href="#" class="btn btn-up">hore</a>
+    </footer>
+
+    <script src="js/main.js"></script>
+
+
+</body>
+
+</html>
