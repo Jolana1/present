@@ -180,7 +180,7 @@ section#home img {
 	z-index: -1;
 }
 
-section#section3 {
+section#section4 {
 	background-image: url(../img/nature-3151869_1920.jpg);
 	background-size: cover;
 	background-position: bottom;
@@ -249,7 +249,7 @@ nav {
 nav ul {
 	margin: 0;
 	padding: 0;
-	background-color: rgba(0, 255, 255, 0.36);
+	background-color:#fff ;
 }
 
 nav ul:after {
@@ -272,7 +272,7 @@ nav > ul > li ul {
 }
 
 nav > ul > li:hover {
-	background-color: red;
+	background-color:#fff;
 }
 
 nav > ul > li:hover ul {
@@ -287,12 +287,12 @@ nav > ul li {
 nav > ul li a {
 	display: block;
 	text-decoration: none;
-	color: #fff;
+	color: #7db9ff;
 	padding: 1em;
 }
 
 nav > ul li a:hover {
-	background-color: #7db9ff;
+	background-color: #fff;
 }
 .triangle:before {
 	top: -30px;
