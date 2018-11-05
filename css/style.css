@@ -200,6 +200,7 @@ section h2 {
 	margin: 0 auto;
 	max-width: 800px;
 	padding: 7em 0;
+
 }
 
 h1 {
@@ -224,6 +225,7 @@ h2 {
     background-clip: padding-box;*/
 }
 
+
 input {
 	background-color: transparent;
 	border: none;
@@ -236,9 +238,36 @@ p img[style*="float:left"]{
 }
 p img[style*="float:right"],
 p img[style*="float:right"]{
-	padding-left: 0 !important;
-	margin-left: 0 !important;
+	padding-right: 0 !important;
+	margin-right: 0 !important;
 }
+.btn {
+	display: inline-block;
+	color: #7db9ff;
+	border: 2px solid;
+	padding: .5em 1.7em;
+	text-decoration: none;
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+	}
+.btn:hover {
+	color: #fff;
+	}
+.btn:hover:after {
+	left: 0;
+	opacity: 1;
+	}
+.btn:btn:active {
+	color: #fff;
+	}
+.btn:after {
+	content: "";
+	position: absolute;
+	left: -100%;
+	top: 0;
+	}
+
 nav {
 	position: fixed;
 	width: 100%;
@@ -293,7 +322,9 @@ nav > ul li a {
 
 nav > ul li a:hover {
 	background-color: #fff;
+
 }
+
 .triangle:before {
 	top: -30px;
 	border-left: 33vw solid transparent;
@@ -304,8 +335,10 @@ nav > ul li a:hover {
 .white-section .triangle:before {
 
 	border-top: 30px solid #fff;
-
 }
+
+
+
 .triangle:after {
 	bottom: 30px;
 	border-left: 67vw solid transparent;
@@ -323,8 +356,24 @@ nav > ul li a:hover {
 	display: table;
 	clear: both;
 }
+
+.timeline.row:nth-of-type(even) .timeline.container{
+
+	float: right;
+	border-right: none;
+	border-left: 2px solid #fff;
+	left: -1px;
+	right: auto;
+
+}
+
+
 .timeline .row {
-	clear: both;
+	border-right: 2px solid #fff ;
+	overflow: auto;
+	width: 50%;
+	position:relative;
+	right: -1px;
 }
 
 @media only screen and (min-width: 768px) and (max-width:1023px)  {
@@ -339,6 +388,7 @@ nav > ul li a:hover {
 	left: calc(-0.5em - 1px);
 	right: auto;
 	top: 2em;
+
 	}
 .timeline .row:nth-of-type(even) article:after {
 	left: 1em;
@@ -346,18 +396,21 @@ nav > ul li a:hover {
 	top: 2em;
 	border-left: .5em solid transparent;
 	border-right: 0.5em solid #7db9ff;
+
 	}
 }
 .timeline .row timeline-container {
 	border-right: 2px solid #fff;
 	position: relative;
 	right: -1px;
+
 }
 
 .timeline .row .timeline-container:after {
 	content: "";
 	display: table;
 	clear: both;
+
 }
 @media only screen and (min-width: 768px)and ( max-width: 1023px) {
 .timeline .row .timeline-container 	{
@@ -372,8 +425,8 @@ nav > ul li a:hover {
 .timeline .row article {
 	margin:0 2em 1em 2em;
 	padding: 0;
-	background-color:#fff;
-	color: #7db9ff;
+	background-color:#7db9ff;
+	color: #fff;
 }
 @media only screen and (min-width: 768px)and ( max-width: 1023px) {
 	.timeline .row article {
@@ -388,6 +441,8 @@ nav > ul li a:hover {
 .timeline .row article p {
 	margin: 1em;
 	padding-bottom: 1em;
+	background-color: #fff;
+
 }
 .timeline .row article *:first-child {
 	margin-top: 0;
@@ -402,6 +457,7 @@ nav > ul li a:hover {
 	display: block;
 	width: 1em;
 	height: 1em;
+	outline: 10px solid orange;
 	position: absolute;
 	right: calc(-0.5em - 1px);
 	top: 1em;
