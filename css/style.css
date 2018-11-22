@@ -91,7 +91,11 @@ h6 {
 	font-family: "Roboto Condensed", sans-serif;
 	font-weight: 400;
 }
+p {
+	margin: 1em;
+	padding-bottom: 1em;
 
+}
 p img[style*="float: left"],
 p img[style*="float:left"] {
 	padding-left: 0 !important;
@@ -224,7 +228,12 @@ h2 {
     background-color: azure;
     background-clip: padding-box;*/
 }
-
+h3 {
+		background-color:#fff ; //position: relative;
+		color: #7db9ff;
+		margin: 0;
+		padding: .5em 1em;
+	}
 
 input {
 	background-color: transparent;
