@@ -385,8 +385,7 @@ nav > ul li a:hover {
 	right: -1px;
 }
 
-@media only screen and (min-width: 768px) and (max-width:1023px)  {
-	.timeline .row:nth-of-type(even) .timeline-container{
+.timeline .row: nth-of-type(even) .timeline-container{
 	float: right;
 	border-right: none;
 	border-left: 2px solid #fff;
@@ -397,6 +396,7 @@ nav > ul li a:hover {
 	left: calc(-0.5em - 1px);
 	right: auto;
 	top: 2em;
+
 
 	}
 .timeline .row:nth-of-type(even) article:after {
