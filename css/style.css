@@ -165,10 +165,10 @@ section:nth-of-type(even) {
 }
 
 section#home {
-	padding: 200px 300px;
+	padding: 205px 300px;
 	/*background-color: palegoldenrod;*/
 	background-color: rgba(0, 0, 0, 0.63);
-	background-image: url(../img/photo-1461722936851-13a79b294a5d.jpeg);
+	background-image: url(../img/nature-3151869_1920.jpg);
 	background-size: cover;
 	background-position: bottom;
 	background-attachment: fixed;
@@ -184,14 +184,27 @@ section#home img {
 	z-index: -1;
 }
 
-section#section4 {
+/*section#section2 {
+	background-image: url(../img/nature-3151869_1920.jpg);
+	background-size: cover;
+	background-position: bottom;
+	background-attachment: fixed;
+	color: #fff;
+}*/
+section#section3 {
 	background-image: url(../img/nature-3151869_1920.jpg);
 	background-size: cover;
 	background-position: bottom;
 	background-attachment: fixed;
 	color: #fff;
 }
-
+section#section4 {
+	background-image: url(../img/thong-vo-2482-unsplash.jpg);
+	background-size: cover;
+	background-position: bottom;
+	background-attachment: fixed;
+	color: #fff;
+}
 section.white-section {
 	background-color: #fff;
 }
